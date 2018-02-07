@@ -1,0 +1,73 @@
+header {
+  height: 55px;
+  background-color: #FFF;
+}
+header div {
+  display: inline-block;
+  width: 48%;
+}
+header div:first-child {
+  float: left;
+}
+header p {
+  padding: 18px 0 0 15px;
+  font-weight: bold;
+}
+header div:last-child {
+  float: right;
+}
+#header-fixed {
+  display: none;
+  width: 48%;
+}
+#header-collapsed {
+  float: right;
+}
+#header-collapsed div {
+  display: none;
+  width: 100%
+}
+.fa-bars {
+  padding: 15px 0px 0 0;
+  font-size: 25px;
+  color: #000000;
+}
+#menu-items {
+  width: 100%;
+  display: none;
+}
+.dropdown {
+  display: block !important;
+  background-color: #FFF;
+}
+
+@media screen and (min-width: 600px) {
+  header {
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+  }
+  header div:first-child {
+    width: 20%;
+  }
+  header div:nth-child(2) {
+    width: 80%;
+    float: right;
+  }
+  #header-collapsed {
+    display: none;
+  }
+  #header-fixed {
+    display: inline-block;
+    width: 80%;
+    float: right;
+  }
+  #header fixed ul {
+    float: right;
+  }
+  #header-fixed li {
+    display: inline-block;
+    padding: 18px 15px 0 0;
+    float: right;
+  }
+}
