@@ -1,9 +1,10 @@
 #hero {
+  clear: both;
   background-color: #FFF;
   background-image: url(/images/pexels-photo.jpeg);
-  background-size: 100%;
+  background-size: contain;
   background-repeat: no-repeat;
-  height: 63vw;
+  height: 67vw;
 }
 #hero div {
   height: 100%;
@@ -42,4 +43,10 @@
   font-weight: bold;
   margin: 0 auto;
   flex: none;
+}
+@media screen and (min-width: 600px) {
+  #hero {
+    max-height: 500px;
+    background-size: cover;
+  }
 }
