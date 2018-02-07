@@ -2,9 +2,10 @@
   width: 95%;
   margin: 0 auto;
   text-align: center;
+  margin-bottom: 20px;
 }
 #featured-projects img {
-  width: 95%;
+  width: 85%;
   margin-top: 5%
 }
 
