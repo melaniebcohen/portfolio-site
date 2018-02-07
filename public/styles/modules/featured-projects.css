@@ -1,4 +1,9 @@
 #featured-projects {
-  height: 65vw;
-  border: 1px purple dashed;
+  width: 95%;
+  margin: 0 auto;
+  text-align: center;
+}
+#featured-projects img {
+  width: 95%;
+  margin-top: 5%
 }
