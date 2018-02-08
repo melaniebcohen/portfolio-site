@@ -1,4 +1,28 @@
 #experience {
-  height: 65vw;
-  background-color: rgb(204, 204, 204);
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+#role-list {
+  margin-left: 10px;
+}
+.company-dates {
+  margin-top: 20px;
+}
+.company-dates:first-child {
+  margin-top: 0px;
+}
+.company {
+  display: inline-block;
+  font-size: 16px;
+  font-weight: bolder;
+}
+.dates {
+  display: inline-block;
+  float: right;
+  font-size: 12px;
+  padding-top: 1px;
+}
+.role p {
+  font-size: 13px;
+  padding-top: 3px;
 }
