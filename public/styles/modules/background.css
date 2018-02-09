@@ -1,3 +1,13 @@
 #background {
-  height: 65vw;
+  padding: 0 20px;
+  margin-bottom: 20px;
+}
+@media screen and (min-width: 500px) {
+}
+
+@media screen and (min-width: 700px) {
+  #background {
+    max-width: 850px;
+    margin: 0 auto;
+  }  
 }

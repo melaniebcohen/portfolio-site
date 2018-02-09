@@ -1,17 +1,52 @@
 #featured-projects {
-  width: 95%;
   margin: 0 auto;
-  text-align: center;
   margin-bottom: 20px;
+  padding: 0 20px;
+  text-align: center;
+}
+#featured-projects h3 {
+  text-align: left;
+}
+.img-div {
+  position: relative;
+  display: inline-block;
+  width: 80vw;
+  height: 80vw;
 }
 #featured-projects img {
-  width: 85%;
-  margin-top: 5%
+  display: block;
+  max-width: 100%;
+  max-height: 100%
+}
+.overlay {
+  position: absolute;
+  background-color: rgba(0,0,0,.7);
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.img-div:hover .overlay {
+  display: block;
+  text-align: center;
+}
+.img-div span {
+  position: absolute;
+  bottom: 30%;
+  max-width: 100%;
+  max-height: 100%;
+  box-sizing: border-box;
+  color: white;
+}
+.img-div .fa-external-link-alt {
+  font-size: 2em;
+  position: absolute;
+  color: white;
+  display: block;
 }
 
+
 @media screen and (min-width: 600px) {
-  #featured-projects img {
-    width: 30%;
-    padding: 5px;
-  }
+
 }

@@ -13,27 +13,30 @@
     <link rel="stylesheet" href="styles/modules/featured-projects.css">
     <link rel="stylesheet" href="styles/modules/contact.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700i,900i|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Archivo+Narrow" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Glegoo" rel="stylesheet">
     <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </head>
   <body>
     <header>
-      <div>
-        <p>mbc</p>
-      </div>
-      <div>
-        <nav id="header-fixed">
-          <ul>
-            <li><a href="#contact">Contact</a></li>
-            <li><a href="#featured-projects">Projects</a></li>
-            <li><a href="#experience">Experience</a></li>
-            <li><a href="#background">Background</a></li>
-          </ul>
-        </nav>
-        <nav id="header-collapsed">
-          <a id="burger" href="#"><i class="fas fa-bars"></i></a>
-        </nav>
-      </div>
-      <div id="menu-items">
+      <section>
+        <div>
+          <p>mbc</p>
+        </div>
+        <div>
+          <nav id="header-fixed">
+            <ul>
+              <li><a href="#contact">Contact</a></li>
+              <li><a href="#featured-projects">Projects</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#background">Background</a></li>
+            </ul>
+          </nav>
+          <nav id="header-collapsed">
+            <a id="burger" href="#"><i class="fas fa-bars"></i></a>
+          </nav>
+        </div>
+        <div id="menu-items">
           <ul>
             <li><a href="#background">Background</a></li>
             <li><a href="#experience">Experience</a></li>
@@ -41,6 +44,7 @@
             <li><a href="#contact">Contact</a></li>
           </ul>
         </div>
+      </section>
     </header>
     <main>
       <section id="hero">
@@ -61,10 +65,11 @@
 
       <section id="background">
         <!-- background & skillz -->
-        <h3>Blerg.</h3>
+        <h3>Background</h3>
       </section>
 
       <section id="experience">
+        <h3>Experience</h3>
         <div id="role-list">
           <div class="company-dates">
             <div class="company">
@@ -101,36 +106,35 @@
             <p>Team Leader</p>
           </div>
         </div>
-        <!-- <div class="company">
-          <div class="logo">
-            <img src="images/carena.png">
-          </div>
-          <div class="company-info">
-            <h4>Carena, Inc.</h4>
-            <h3>Seattle, WA</h3>
-          </div>
-        </div>
-        <div class="role">
-          <p class="title">Product Manager</p>
-        </div>
-        <div class="company">
-          <div class="logo">
-            <img src="images/apple.png">
-          </div>
-          <div class="company-info">
-            <h4>Apple, Inc.</h4>
-            <h3>Seattle, WA</h3>
-          </div>
-        </div>  -->
       </section>
 
       <section id="featured-projects">
-        <a href="https://take-a-hike-.herokuapp.com" target="_blank"><img src="images/takeahike.png"></a>
-        <a href="https://rover-fe-staging.herokuapp.com/" target="_blank"><img src="images/roverview.png"></a>
-        <img src="http://via.placeholder.com/320x320">
+        <h3>Featured Projects</h3>
+        <div class="img-div">
+          <img src="images/takeahike.png">
+          <div class="overlay">
+            <span>What it is, why, etc.
+            <a href="https://take-a-hike-.herokuapp.com" target="_blank"><i class="fas fa-external-link-alt"></i></a></span>
+          </div>
+        </div>
+        <div class="img-div">
+          <a href="https://rover-fe-staging.herokuapp.com" target="_blank"><img src="images/roverview.png"></a>
+          <div class="overlay">
+            <p>What it is, why, etc.</p>
+          </div>
+        </div>
+        <div class="img-div">
+          <a href="https://take-a-hike-.herokuapp.com" target="_blank"><img src="images/takeahike.png"></a>
+          <div class="overlay">
+            <p>Hello</p>
+          </div>
+        </div>
       </section>
 
-      <section id="contact"></section>
+      <section id="contact">
+        <h3>Get In Touch!</h3>
+      </section>
+      
     </main>
     <footer>
     </footer>
