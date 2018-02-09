@@ -3,7 +3,7 @@
   margin-bottom: 20px;
 }
 #role-list {
-  margin-left: 10px;
+  margin: 0 20px 0 20px;
 }
 .company-dates {
   margin-top: 20px;
@@ -12,17 +12,37 @@
   margin-top: 0px;
 }
 .company {
-  display: inline-block;
-  font-size: 16px;
+  display: block;
+  font-size: 17px;
   font-weight: bolder;
+  font-family: 'Lato';
+  margin-bottom: 7px
 }
 .dates {
-  display: inline-block;
-  float: right;
-  font-size: 12px;
-  padding-top: 1px;
+  display: block;
+  font-size: 13px;
+  padding-top: 2px;
+  font-family: 'Archivo Narrow';
 }
 .role p {
+  display: block;
   font-size: 13px;
   padding-top: 3px;
+}
+
+@media screen and (min-width: 500px) {
+  .company {
+    display: inline-block;
+  }
+  .dates {
+    display: inline-block;
+    float: right
+  }  
+}
+
+@media screen and (min-width: 700px) {
+  #experience {
+    max-width: 850px;
+    margin: 0 auto;
+  }  
 }
