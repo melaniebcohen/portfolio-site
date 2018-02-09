@@ -7,10 +7,9 @@ header div {
   width: 48%;
 }
 header div:first-child {
-  float: left;
-}
-header p {
   padding: 18px 0 0 15px;
+  display: inline-block;
+  float: left;
   font-weight: bold;
 }
 header div:last-child {
@@ -18,7 +17,7 @@ header div:last-child {
 }
 #header-fixed {
   display: none;
-  width: 48%;
+  width: 45%;
 }
 #header-collapsed {
   float: right;
@@ -63,7 +62,7 @@ footer {
     z-index: 99;
   }
   header div:first-child {
-    width: 10%;
+    width: 5%;
   }
   header div:nth-child(2) {
     width: 90%;
